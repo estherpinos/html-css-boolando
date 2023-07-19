@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex{
+  display: flex;
+}
+
+.container, .flex{
+  width:70%;
+  margin: 0 auto;
+
+}
+
+/* HEADER */
+
+.top-bar-fix{
+  position: fixed;
+  text-align: center;
+  background-color: #FF6900;
+  width: 100%;
+  height: 60px;
+}
+
+#container-header{
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+ 
+}
+.menu ul{
+  align-items: center;
+}
+
+.menu ul li{
+  list-style: none;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer; 
+  padding-left: 10px; 
+}
+
+#boolando-logo{
+  width: 100px;
+}
+
+.menu ul li:hover{
+  text-decoration: underline;
+}
