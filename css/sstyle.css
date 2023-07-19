@@ -4,13 +4,11 @@
   box-sizing: border-box;
 }
 
-.flex{
+.container-bar{
   display: flex;
-}
-
-.container, .flex{
   width:70%;
   margin: 0 auto;
+  max-width: 1000px;
 
 }
 
@@ -22,6 +20,8 @@
   background-color: #FF6900;
   width: 100%;
   height: 60px;
+  top: 0;
+  left: 0;
 }
 
 #container-header{
@@ -30,6 +30,9 @@
   align-items: center;
  
 }
+
+/* MENU */
+
 .menu ul{
   align-items: center;
 }
@@ -43,6 +46,8 @@
   padding-left: 10px; 
 }
 
+/* LOGO */
+
 #boolando-logo{
   width: 100px;
 }
@@ -50,3 +55,38 @@
 .menu ul li:hover{
   text-decoration: underline;
 }
+
+/* MAIN */
+
+.container-main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+  margin: 60px auto;
+  padding-top: 40px;
+  width: 70%;
+  max-width: 1000px;
+  background-color: rebeccapurple;
+}
+
+.product{
+  position: relative;
+}
+
+.product img{
+  width: 200px;
+  margin: 2px;
+}
+
+.product-2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.product:hover .product-2{
+  opacity: 1;
+} 
