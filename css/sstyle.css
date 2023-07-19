@@ -71,18 +71,16 @@
   padding-top: 40px;
   width: 80%;
   max-width: 1000px;
-  background-color: rebeccapurple;
 }
 
 .product{
   position: relative;
   padding: 30px 0 50 0;
-  background-color: #FF6900;
 }
 
 .product img{
   width: 300px;
-  margin: 2px;
+  margin: 8px;
 }
 
 .product-2{
@@ -100,7 +98,7 @@
 /* TEXT PREZZO E MARCA */
 
 .text-foto{
-  padding-left: 2px;
+  padding-left: 8px;
   margin-bottom: 40px;
 }
 
@@ -137,7 +135,7 @@
   position: absolute;
   top: 370px;
   z-index: 10;
-  left: 2px;
+  left: 8px;
   background-color: red;
   color: white;
   font-size: 10px;
@@ -148,11 +146,56 @@
   position: absolute;
   top: 370px;
   z-index: 10;
-  left: 42px;
+  left: 48px;
   background-color: #007E00;
   color: white;
   font-size: 10px;
   padding: 5px 8px;
+}
 
+.heart{
+  position: absolute;
+  z-index: 90;
+  top: 20px;
+  right: 9px;
+  background-color: white;
+  padding: 10px 10px;
+}
+
+ .heart:hover {
+  color: red;
+}
+
+/* FOOTER */
+
+.section-footer{
+  background-color: #1A1A1A;
+  height: 90px;
+}
+
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.text-footer{
+  top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.container-footer ul li{
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 12px;
+  color: white;
+
+  
 
 }
