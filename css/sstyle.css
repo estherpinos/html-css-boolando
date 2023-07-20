@@ -5,13 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container-bar{
-  display: flex;
+.container{
   width:80%;
   margin: 0 auto;
-  max-width: 1000px;
-  
-
+  max-width: 1000px; 
 }
 
 /* HEADER */
@@ -19,7 +16,6 @@
 .top-bar-fix{
   z-index: 999;
   position: fixed;
-  text-align: center;
   background-color: #FF6900;
   box-shadow: 0 0 10px 0 gray;
   width: 100%;
@@ -29,6 +25,7 @@
 }
 
 #container-header{
+  display: flex;
   justify-content: space-between;
   height: 100%;
   align-items: center;
@@ -50,10 +47,15 @@
   padding-left: 10px; 
 }
 
+
 /* LOGO */
 
-#boolando-logo{
+.logo-bar{
   width: 100px;
+}
+
+#boolando-logo{
+  width: 100%;
 }
 
 .menu ul li:hover{
@@ -62,20 +64,16 @@
 
 /* MAIN */
 
-.container-main{
+#container-main{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: start;
-  margin: 60px auto;
-  padding-top: 40px;
+  margin: 100px auto;
   width: 80%;
-  max-width: 1000px;
 }
 
 .product{
   position: relative;
-  padding: 30px 0 50 0;
 }
 
 .product img{
@@ -178,7 +176,7 @@
   justify-content: space-between;
   height: 100%;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 30px;
   width: 80%;
   max-width: 1000px;
 }
@@ -196,6 +194,9 @@
   font-size: 12px;
   color: white;
 
-  
+}
+
+.social-footer li{
+  padding-left: 5px;
 
 }
